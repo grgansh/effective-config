@@ -110,7 +110,3 @@ uv export --no-dev --no-hashes --no-emit-project -o requirements.txt
 - `.env` is excluded from git. Only `.env.example` is committed.
 - Set production secrets in the hosting platform's dashboard, not in files.
 - Query parameters appear in logs and browser history, so do not pass real secrets through `?set=`.
-
-## License
-
-MIT. See `LICENSE`.
